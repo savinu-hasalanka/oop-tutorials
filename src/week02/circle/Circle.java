@@ -1,6 +1,7 @@
 package week02.circle;
 
 public class Circle {
+    // instance variables
     private double radius = 1;
     private String color = "blue";
 
@@ -19,23 +20,25 @@ public class Circle {
         this.color = color;
     }
 
+    // getter for radius
     public double getRadius() {
         return radius;
     }
 
+    // instance method to calculate area
     public double getArea() {
         // PI is a static constant (double) stored inside Math class
         // pow(double a, double b) is a static method defined inside Math class
-        // pow(double a, double b) raises a into power of b
+        // pow(double a, double b) raises a into the power of b
         return 2 * Math.PI * Math.pow(radius, 2);
     }
 
     public void modifyColorAndRadius(String color, double radius) {
-        // assign the new values
+        // assigns the new values
         this.color = color;
         this.radius = radius;
 
-        // print on the command line
+        // prints on the command line
         System.out.println(
                 "new color: " + this.color +
                 "new radius: " + this.radius
