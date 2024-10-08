@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="af6ddd76-ac66-4e18-9a36-cf517e18d410" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week01/circle/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week01/circle/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week01/person/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week01/person/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/week02/circle/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week02/circle/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/week02/circle/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week02/circle/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/week02/person/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week02/person/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/week02/person/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week02/person/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +65,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728383949140</updated>
-      <workItem from="1728383950093" duration="2909000" />
+      <workItem from="1728383950093" duration="5491000" />
     </task>
     <servers />
   </component>
