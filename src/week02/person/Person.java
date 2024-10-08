@@ -15,8 +15,7 @@ public class Person {
         // assign instance variables
         this.name = name;
         this.surname = surname;
-        // use the setter
-        // to avoid duplication of input validation
+        // use the setter to avoid duplication of input validation
         setAge(age);
 
         // increment the numberOfPersons each time a person is created
@@ -60,7 +59,7 @@ public class Person {
 
     // setter for age attribute
     public void setAge(int age) throws IllegalArgumentException {
-        // check if the age is a negative number
+        // checks if the age is a negative number
         // throws an exception if age is negative
         if (age < 0) {
             throw new IllegalArgumentException("Age must be a positive integer");
@@ -70,7 +69,8 @@ public class Person {
 
     // class methods
     // use "static" keyword to define class methods
-    // no need to define a setter for numberOfPersons as it is auto incremented inside the constructor
+    // Defining a setter for numberOfPersons is not required
+    // as it is auto incremented inside the constructor
     public static int getNumberOfPersons() {
         return numberOfPersons;
     }

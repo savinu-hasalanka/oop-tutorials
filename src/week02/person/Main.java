@@ -2,11 +2,11 @@ package week02.person;
 
 public class Main {
     public static void main(String[] args) {
-        // instantiate two person objects using the constructor 01
+        // instantiates two person objects using the constructor 01
         Person taylor = new Person("Taylor", "Swift", 32);
         Person steve = new Person("Steve", "Jobs", 56);
 
-        // instantiate a person objects using the constructor 02
+        // instantiates a person objects using the constructor 02
         Person tim = new Person("Tim", "Cook");
 
         // use of getters
