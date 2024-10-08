@@ -1,4 +1,4 @@
-package week01.circle;
+package week02.circle;
 
 public class Main {
     public static void main(String[] args) {
