@@ -45,7 +45,7 @@ public class Date {
 
     public void setYear(int year) {
         // input validation for year
-        if (year < 1 || year > 12) {
+        if (year < 1980 || year > 2079) {
             throw new IllegalArgumentException("Invalid year");
         }
         this.year = year;
