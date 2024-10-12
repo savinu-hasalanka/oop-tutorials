@@ -6,15 +6,16 @@ public class Movie {
     // instance variables
     private String title;
     private String category;
-    private Director director; // Movie Own-A Director object
+    private Director director; // Movie Has-A Director object
     private int numberOfAwards;
     private Actor[] actors;
     private static int numberOfActors = 0;
 
     // constructor
-    // note: Though a Movie object can NOT be created without a Director
-    //       The Director object not instantiated / maintained inside Movie
-    // relationship type: aggregation
+    // note: A Director object is made outside the Director class and pass through the constructor.
+    //       AKA constructor injection.
+    //       The Director object not instantiated / maintained inside Movie.
+    // relationship type: aggregation.
     public Movie(String title, String category, Director director) {
         this.title = title;
         this.category = category;

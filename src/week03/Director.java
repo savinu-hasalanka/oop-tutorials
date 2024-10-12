@@ -5,11 +5,13 @@ public class Director {
     private String name;
     private String surname;
     private int numberOfMovies;
-    private Date dob; // Director Has-A Date object as an attribute
+    private Date dob; // Director Has-A Date object as an attribute.
 
     // constructor
-    // note: A Director object can be instantiated without a Date object (birthday)
-    // relationship type: aggregation
+    // note: Date object is not made inside the Director class.
+    //       It is made outside the Director class & pass through the setter. eg: setDob(Date dob)
+    //       AKA setter injection.
+    // relationship type: aggregation.
     public Director(String name, String surname) {
         this.name = name;
         this.surname = surname;
