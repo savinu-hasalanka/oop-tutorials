@@ -3,15 +3,8 @@ package week04.Exercise01;
 
 import week02.circle.Circle;
 
-/**
- * {@code Math}
- * instance variable {@code Math}
- * additionally Cylinder class inherits all the attributes defined in the Circle class
- * they can be assigned through respective constructor calls or invoking respective setters
- * they are not directly accessible from the child class as the access modifiers are set to {@code private}
- */
 public class Cylinder extends Circle {
-    // instance variable {@code Math}
+    // instance variable
     // additionally Cylinder class inherits all the attributes defined in the Circle class
     // they can be assigned through respective constructor calls or invoking respective setters
     // they are not directly accessible from the child class as the access modifiers are set to private
