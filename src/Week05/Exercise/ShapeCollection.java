@@ -1,4 +1,4 @@
-package Week05;
+package Week05.Exercise;
 
 public interface ShapeCollection {
     void addShape(GeometricObject shape);

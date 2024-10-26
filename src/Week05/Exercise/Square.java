@@ -1,4 +1,4 @@
-package Week05;
+package Week05.Exercise;
 
 public class Square extends GeometricObject {
     private double side;
