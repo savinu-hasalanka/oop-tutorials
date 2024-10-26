@@ -1,4 +1,4 @@
-package week04.Exercise01;
+package week04.exercise01;
 
 
 import week02.circle.Circle;

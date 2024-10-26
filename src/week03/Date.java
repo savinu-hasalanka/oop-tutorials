@@ -1,4 +1,4 @@
-package Week03;
+package week03;
 
 public class Date {
     // instance variables
