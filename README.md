@@ -14,4 +14,4 @@ Savinu Hasalanka
 
 ## Let's Connect
 
-<a href="https://www.linkedin.com/in/savinu-hasalanka/"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" height="25" /></a>
+<a href="https://www.linkedin.com/in/savinu-hasalanka/" target="_blank"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" height="25" /></a>
