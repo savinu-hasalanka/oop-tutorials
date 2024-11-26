@@ -11,8 +11,7 @@ public class Main {
         myThread.start();
 
         // Method 02 : Implementing the runnable interface
-        // Note : The thread and the task we want run concurrently
-        // are seperated
+        // Note : The thread and the task we want run concurrently are seperated
         // Good design in terms of OOP
         // Ideal when we want to adapt the concurrent behaviour
         Runnable myRunnable = new MyRunnable();
