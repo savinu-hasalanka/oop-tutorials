@@ -17,7 +17,7 @@ public class SharedBuffer {
         // checks if the buffer is full
         // producers go to a waiting state if the buffer is full
         // IMPORTANT : wait() method will release the monitor object and send the thread to a waiting state
-        if (count >= buffer.length) {
+        while (count >= buffer.length) {
             // following code can also be written as this.wait()
             wait();
         }
